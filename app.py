@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 # Remote model URL
-MODEL_URL = "https://drive.google.com/file/d/1C-nVt2yYc8t4-hPTCTcfYZdswl4WbAc4/view?usp=drive_link"
+MODEL_URL = "https://drive.google.com/file/d/1FoSvYRTaTxrqnVaflMAA8fMhh98b7hHW/view?usp=drive_link"
 MODEL_PATH = "credit_card_fraud_model.pkl"
 
 # Download the model if it doesn't exist
